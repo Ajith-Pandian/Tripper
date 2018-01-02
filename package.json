@@ -1,0 +1,34 @@
+{
+  "name": "Tripper",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "and": "0.0.0",
+    "autoresponsive-react-native": "^1.0.9",
+    "prop-types": "^15.5.10",
+    "react": "^16.0.0-alpha.12",
+    "react-native": "^0.46.1",
+    "react-native-cache": "^1.0.3",
+    "react-native-datepicker": "^1.6.0",
+    "react-native-maps": "^0.15.3",
+    "react-native-tab-view": "0.0.67",
+    "react-native-vector-icons": "^4.2.0",
+    "react-native-viewpager": "^0.2.13",
+    "react-navigation": "^1.0.0-beta.11",
+    "react-navigation-props-mapper": "^0.1.0",
+    "realm": "^1.10.0"
+  },
+  "devDependencies": {
+    "babel-jest": "20.0.3",
+    "babel-preset-react-native": "2.1.0",
+    "jest": "20.0.4",
+    "react-test-renderer": "16.0.0-alpha.12"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
